@@ -1,6 +1,7 @@
 package com.peopledb.service;
 
 import com.peopledb.dao.PersonDao;
+import com.peopledb.entity.Address;
 import com.peopledb.entity.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -17,9 +18,18 @@ public class PersonService {
     private PersonDao personDao;
 
     @Transactional
-    public void createPerson(String name) {
+    public Person createPerson(String name) {
         Person person = new Person();
         person.setName(name);
+        personDao.savePerson(person);
+        return person;
+    }
+
+    @Transactional
+    public void createPerson(String name, Address address) {
+        Person person = new Person();
+        person.setName(name);
+        person.setAddress(address);
         personDao.savePerson(person);
     }
 

@@ -1,6 +1,7 @@
 package com.peopledb.servlet;
 
 import com.peopledb.entity.Person;
+import com.peopledb.service.AddressService;
 import com.peopledb.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -21,6 +22,7 @@ import java.util.List;
 public class IndexServlet extends HttpServlet {
     @Autowired
     private PersonService personService;
+    private AddressService addressService;
 
     @Override
     public void init() throws ServletException {
@@ -37,7 +39,15 @@ public class IndexServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        personService.createPerson(request.getParameter("name"));
+        if (personService.findPerson(request.getParameter("name"))==null) {
+            if (addressService.findAddress(request.getParameter("address"))==null)
+            {
+
+            }
+        } else {
+
+        }
+        personService.createPerson(request.getParameter("name"),request.getParameter("address"));
         PrintWriter out=response.getWriter();
         List<Person> pList = personService.findAllPersons();
         for(Person p:pList)

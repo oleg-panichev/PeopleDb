@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd48fb0b-a947-46ad-bed4-963fbfc804a6" name="Default" comment="" />
+    <list default="true" id="fd48fb0b-a947-46ad-bed4-963fbfc804a6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/peopledb/entity/Address.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/peopledb/dao/AddressDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/peopledb/service/AddressService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/peopledb/servlet/IndexServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/peopledb/servlet/IndexServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/peopledb/entity/Person.java" afterPath="$PROJECT_DIR$/src/main/java/com/peopledb/entity/Person.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/peopledb/service/PersonService.java" afterPath="$PROJECT_DIR$/src/main/java/com/peopledb/service/PersonService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="PeopleDb.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,7 +22,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="D:\" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -64,20 +74,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Person.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/peopledb/entity/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="29" selection-start="1832" selection-end="1832" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1598">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="32" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-              <folding />
+            <state line="27" column="49" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="1207">
+              <folding>
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
+                <element signature="e#777#778#0" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#875#876#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#1019#1020#0" expanded="true" />
+                <element signature="e#1057#1058#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,34 +99,51 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="39" selection-start="151" selection-end="151" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="272">
+            <state line="11" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="289">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Person.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/peopledb/entity/Person.java">
+      <file leaf-file-name="IndexServlet.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/peopledb/servlet/IndexServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="18" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0" vertical-offset="509" max-vertical-offset="918">
+            <state line="28" column="47" selection-start="918" selection-end="918" vertical-scroll-proportion="0.20967741" vertical-offset="424" max-vertical-offset="1054">
               <folding>
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/peopledb/dao/PersonDao.java">
+      <file leaf-file-name="Address.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/peopledb/entity/Address.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="63" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0" vertical-offset="237" max-vertical-offset="646">
+            <state line="17" column="31" selection-start="385" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="1105">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#452#460#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#956#957#0" expanded="true" />
+                <element signature="e#990#991#0" expanded="true" />
+                <element signature="e#1056#1057#0" expanded="true" />
+                <element signature="e#1102#1103#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddressService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/peopledb/service/AddressService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="23" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="714">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,7 +154,7 @@
       <file leaf-file-name="PersonService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/peopledb/service/PersonService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="18" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="697">
+            <state line="25" column="5" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="241" max-vertical-offset="867">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,13 +162,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexServlet.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/peopledb/servlet/IndexServlet.java">
+      <file leaf-file-name="AddressDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/peopledb/dao/AddressDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="25" selection-start="1552" selection-end="1552" vertical-scroll-proportion="0.87331533" vertical-offset="407" max-vertical-offset="884">
+            <state line="25" column="83" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="56" selection-start="1413" selection-end="1413" vertical-scroll-proportion="-12.92" vertical-offset="0" max-vertical-offset="578">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="32" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="527">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -151,15 +200,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="56" selection-start="1413" selection-end="1413" vertical-scroll-proportion="-6.8" vertical-offset="153" max-vertical-offset="578">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -167,17 +207,23 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/peopledb/dao/PersonDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/peopledb/service/PersonService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/peopledb/entity/Person.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/peopledb/servlet/IndexServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/peopledb/dao/AddressDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/peopledb/entity/Address.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/peopledb/entity/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/peopledb/servlet/IndexServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/peopledb/service/AddressService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/peopledb/service/PersonService.java" />
       </list>
     </option>
   </component>
@@ -201,7 +247,7 @@
     <option name="width" value="1382" />
     <option name="height" value="754" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -458,6 +504,7 @@
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaWebShop" />
   </component>
   <component name="RunManager" selected="Tomcat Server.index">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
@@ -822,24 +869,46 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="fd48fb0b-a947-46ad-bed4-963fbfc804a6" name="Default" comment="" />
       <created>1394971570601</created>
       <updated>1394971570601</updated>
-      <workItem from="1394971577633" duration="5124000" />
+      <workItem from="1394971577633" duration="9074000" />
     </task>
+    <task id="LOCAL-00001" summary="Patch1">
+      <created>1394981294420</created>
+      <updated>1394981294420</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5124000" />
+    <option name="totallyTimeSpent" value="9074000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5264847" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12764351" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -854,7 +923,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -885,6 +954,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Patch1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Patch1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -894,35 +965,28 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="29" selection-start="1832" selection-end="1832" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1598">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/peopledb/dao/PersonDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="63" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0" vertical-offset="237" max-vertical-offset="646">
+        <state line="14" column="0" selection-start="299" selection-end="779" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="646">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/peopledb/entity/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/peopledb/dao/AddressDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="18" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0" vertical-offset="509" max-vertical-offset="918">
+        <state line="25" column="83" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="646">
           <folding>
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="29" selection-start="1832" selection-end="1832" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1598">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -933,12 +997,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/peopledb/service/PersonService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="18" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="697">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="19" column="56" selection-start="1413" selection-end="1413" vertical-scroll-proportion="-12.92" vertical-offset="0" max-vertical-offset="578">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -949,23 +1011,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/peopledb/entity/Address.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="56" selection-start="1413" selection-end="1413" vertical-scroll-proportion="-6.8" vertical-offset="153" max-vertical-offset="578">
-          <folding />
+        <state line="17" column="31" selection-start="385" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="1105">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#452#460#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="39" selection-start="151" selection-end="151" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="272">
+        <state line="11" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="289">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/peopledb/entity/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="49" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="1207">
+          <folding>
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/peopledb/service/AddressService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="23" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="714">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/peopledb/service/PersonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="5" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="241" max-vertical-offset="867">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/peopledb/servlet/IndexServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="25" selection-start="1552" selection-end="1552" vertical-scroll-proportion="0.87331533" vertical-offset="407" max-vertical-offset="884">
+        <state line="28" column="47" selection-start="918" selection-end="918" vertical-scroll-proportion="0.20967741" vertical-offset="424" max-vertical-offset="1054">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
